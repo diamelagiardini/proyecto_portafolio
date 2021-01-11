@@ -97,7 +97,7 @@ h1{
     height: 500px;
     width: 500px;
    
-    background-image: url(../img/img_hola_soy.png);
+    background-image: url(../imagenes/imagen_primer_section.png);
     background-size:contain;
     background-repeat: no-repeat;    
 }
