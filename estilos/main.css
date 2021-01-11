@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    box-shadow: inset -10px 0 25px #999587;
+}
+
 #primer_section{
     height: 879px;
     width: 100%;
