@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#primer_section{
+    height: 879px;
+    width: 100%;
+    margin: 90px 0 0 0;
+    padding: 110px 40px 130px 40px;
+}
+
+
+.conteiner_section1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: auto;
+    height: 639px;
+    width: 1100px;
+    min-height: auto;
+    max-width: 1100px;
+    min-width: auto;
+    
+    background-color: #ffffff;
+}
+
+.flexible_section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: #ffffff;
+    height: 251px;
+    width: 500px;
+    margin-right: 100px;
+}
+
+p{
+    color:#2e2e31;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 42px;
+    text-decoration: none solid;
+    text-align:left;  
+}
+
+h1{
+    color: #C3525A;
+    font-size: 55px; 
+    font-weight: 900; 
+    line-height: 72px;
+    text-decoration: none solid;
+    text-align: left;
+}
+
+.descripcion{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.boton{
+    color: #fff;
+    text-decoration: none;
+    background-color: #C3525A;
+    border-radius: 100px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #C3525A;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: left;
+    width: 140px;
+    margin-top: 40px;
+}
+
+.boton:hover{
+    color:   #fff;
+    text-decoration: none;
+    background-color:#c57177;
+    border-radius: 100px;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid   #C3525A;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: left;
+    width: 140px;
+    margin-top: 40px;}
+
+.img{
+    display: block;
+    height: 500px;
+    width: 500px;
+   
+    background-image: url(../img/img_hola_soy.png);
+    background-size:contain;
+    background-repeat: no-repeat;    
+}
