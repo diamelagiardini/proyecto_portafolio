@@ -19,6 +19,14 @@ footer{
     justify-content: space-around;
 }
 
+.ul_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-right:100px;  
+}
+
 .menu_fuente_footer{
     font-size: 14px;
 }

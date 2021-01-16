@@ -33,6 +33,13 @@ header{
     margin-right: 20%;  
 }
 
+.ul_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-right:100px;   
+}
 
 .items_menu{
     cursor: pointer;
@@ -63,20 +70,9 @@ header{
 font-size: 1.2em;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items: center;
-    margin-right:100px;   
-}
-
 li{
-    padding: 0 15px;  
-}
-
-ul li{
-    list-style: none;
+    padding: 0 15px;
+    list-style: none;  
 }
 
 /*AGREGAR RESPONSIVE*/
