@@ -129,7 +129,7 @@ h1{
 .contactame{
     width: 489px;
     height: 527px;
-    }
+}
 
 h2{
     color:black;
@@ -180,3 +180,37 @@ h2{
     transition: 0.4s;
 }
 
+
+.estilo_formulario{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #f6f7fb;
+    border: #f6f7fb;
+}
+
+.escribime{
+    height: 530px;
+    width: 489px;
+}
+.apellido {
+    padding-left: 80px;
+}
+
+input[type=text]{
+    position: relative;
+    top: 15px;
+}
+#id_email{
+    width: 300px;
+}
+
+#id_mensaje{
+    font-family: monospace; 
+    height: 174px; 
+    width: 469px;
+    border-radius: 20px;
+    border: 1px solid #C3525A;
+    background-color: #f6f7fb;
+    /*subir placeholder*/
+}
