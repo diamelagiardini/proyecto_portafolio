@@ -80,7 +80,7 @@ h1{
     transition: 0.4s;
     text-align: left;
     width: 140px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .boton:hover{
@@ -178,4 +178,5 @@ h2{
     padding: 10px;
     cursor: pointer;
     transition: 0.4s;
-    }
+}
+
