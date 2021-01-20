@@ -46,6 +46,12 @@ header{
     transition: 0.4s;   
 }
 
+.items_menu:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    color:#C3525A;   
+}
+
 .contacto_header{
     color: #fff;
     background-color: #C3525A;
