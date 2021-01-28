@@ -19,10 +19,10 @@
             <nav class="nav_header">
                 
                 <ul class="ul_nav">
-                    <li class="items_menu ocultar">HOLA</li>
-                    <li class="items_menu ocultar">CONOCIMIENTOS</li>
-                    <li class="items_menu ocultar">PROYECTOS</li>
-                    <li class="items_menu ocultar contacto_header">CONTACTO</li>
+                    <a href="#hola"><li class="items_menu ocultar">HOLA</li></a>
+                    <a href="#conocimientos"><li class="items_menu ocultar">CONOCIMIENTOS</li></a>
+                    <a href="#proyectos"><li class="items_menu ocultar">PROYECTOS</li></a>
+                    <a href="#contacto"><li class="items_menu ocultar contacto_header">CONTACTO</li></a>
                 </ul>
 
              </nav>    
@@ -31,25 +31,29 @@
     </header>
 
     <main>
+
+        <a name="hola">
         <section id="section_presentacion">
 
             <div class="conteiner_section_presentacion">
                 <div class="flexible_section_presentacion">
-                    
+                  
                   <p>¡Hola! Soy</p>  
     
                   <h1>Diamela Giardini</h1>
     
-                  <p class="descripcion">Soy estudiante de Desarrollo Frontend en ADA, me gusta la psicología y soy amante de los animales. Mi pasatiempo es aprender a tocar la Guitarra</p>
+                  <p class="descripcion">Soy estudiante de Desarrollo Frontend en ADA, me gusta la psicología y soy amante de los animales.</p>
                 
-                  <a href="" class="boton">LO QUE HAGO</a>
+                  <a href="#proyectos" class="boton">LO QUE HAGO</a>
                 </div>
                 
                 <div class="img"></div>
             </div>
     
         </section>
+        </a>
 
+        <a name="conocimiento">
         <section id="section_conocimientos">
             <div class="div_conocimientos">
                 <h2 class="titulo_conocimientos">Mis conocimientos</h2>
@@ -65,6 +69,8 @@
                 </div>
             </div>
         </section>
+        </a>
+
 
         <section id="section_cita">
             <div class="div_cita">
@@ -77,6 +83,7 @@
             </div>
         </section>
 
+        <a name="proyectos">
         <section id="section_proyectos">
 
             <div class="div_proyectos">
@@ -97,7 +104,9 @@
             </div> 
 
         </section>
+        </a>
 
+        <a name="contacto">
         <section id="section_formulario">
 
             <div class="conteiner_section_formulario">
@@ -155,26 +164,27 @@
                
 
             </div>
-
+            
         </section>
+    </a>
     </main>
 
     <footer>
         <div class=" color_footer posicion_footer">
             <ul class="ul_footer">
-                <li class="menu_fuente_footer">HOLA</li>
-                <li class="menu_fuente_footer">CONOCIMIENTOS</li>
-                <li class="menu_fuente_footer">PROYECTOS</li>
-                <li class="menu_fuente_footer">CONTACTO</li>
+                <a href="#hola"><li class="menu_fuente_footer">HOLA</li></a>
+                <a href="#conocimientos"><li class="menu_fuente_footer">CONOCIMIENTOS</li></a>
+                <a href="#proyectos"><li class="menu_fuente_footer">PROYECTOS</li></a>
+                <a href="#contacto"><li class="menu_fuente_footer">CONTACTO</li></a>
             </ul>
         </div>
         
         <div class=" color_iconos_footer posicion_footer">
             <ul class="ul_footer">
-                <li><i class="fab fa-twitter iconos"></i></li>
-                <li><i class="fab fa-github-alt iconos"></i></li>
-                <li><i class="fab fa-linkedin-in iconos"></i></li>
-                <li><i class="fas fa-envelope iconos"></i></li>
+                <a href="https://twitter.com/diame_g" target="_blank"><li><i class="fab fa-twitter iconos"></i></li></a>
+                <a href="https://github.com/diamelagiardini" target="_blank"><li><i class="fab fa-github-alt iconos"></i></li></a>
+                <a href="https://www.linkedin.com/in/diamelagiardini/" target="_blank""><li><i class="fab fa-linkedin-in iconos"></i></li></a>
+                <a href="" target="_blank"><li><i class="fas fa-envelope iconos"></i></li></a>
             </ul>
         </div>
 
