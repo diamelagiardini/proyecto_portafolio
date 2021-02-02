@@ -408,57 +408,99 @@ h2{
     transition: 0.4s;
 }
 
-
-.estilo_formulario{
-    border-radius: 20px;
-    width: 150px;
-    height: 40px;
-    background-color: #f6f7fb;
-    border: #f6f7fb;
-}
-
 .escribime{
     height: 530px;
     width: 489px;
 }
 
-
-.apellido {
-    padding-left: 80px;
+#form{
+    height: 483px;
+    width: 459px;
 }
 
+.div_nombreyapellido{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.div_emailymensaje{
+   display: flex;
+   flex-direction: column;
+
+}
+
+label{
+    margin-top: 15px;
+    font-weight: 600;
+}
 input[type=text]{
-    position: relative;
-    top: 15px;
-}
-#id_email{
-    width: 300px;
-}
-
-#id_mensaje{
-    font-family: monospace; 
-    height: 174px; 
-    width: 469px;
+    border: 1px solid #f6f7fb;
     border-radius: 20px;
-    border: 1px solid #C3525A;
     background-color: #f6f7fb;
-    /*subir placeholder*/
-    /*agregar focus y active en todo los input*/
+    padding: 10px 15px;
+    cursor: text;
+    margin-top: 20px;
+    margin-left: 5px;
+    outline: none;
+    
 }
 
-#id_enviar{
-    font-size: 16px; 
-    font-weight: 500;
+input[type=text]:hover{
+    border: 1px solid #C3525A;
+    box-shadow: 0 0 4px 1px #C3525A;
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    padding: 10px 15px;
+    cursor: text;
+    margin-top: 20px;
+    margin-left: 5px;
+    
 }
-/*
-A:link {
-    text-decoration: none 
+
+input[type=email]{
+    border: 1px solid #f6f7fb;
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    padding: 10px 15px;
+    cursor: text;
+    outline: none;
+
 }
-A:hover {
-     color: black; 
-     text-decoration: none 
+
+input[type=email]:hover{
+    border: 1px solid #C3525A;
+    box-shadow: 0 0 4px 1px #C3525A;
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    padding: 10px 15px;
+    cursor: text;
+
 }
-A:visited {
-    color: black;
-    text-decoration: none 
-}  */
+
+textarea{
+    border: 1px solid #f6f7fb;
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    padding: 10px 15px;
+    font-size:13px;
+    font-family: monospace;
+    cursor: text;
+    margin-top: 20px;
+    outline: none;
+
+}
+
+textarea:hover{
+    border: 1px solid #C3525A;
+    box-shadow: 0 0 4px 1px #C3525A;
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    padding: 10px 15px;
+    font-size:13px;
+    font-family: monospace;
+    cursor: text;
+    margin-top: 20px;
+
+}
+
