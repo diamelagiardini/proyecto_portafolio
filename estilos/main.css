@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+  /* flex-wrap: wrap;*/
 
     margin: auto;
     height: 639px;
@@ -98,7 +99,7 @@ h1{
     margin-top: 40px;}
 
 .img{
-    display: block;
+    display:flex;
     height: 500px;
     width: 500px;
    
@@ -115,6 +116,8 @@ h1{
 .div_conocimientos{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f6f7fb;
     
     height: 970px;
     width: 1100px;
@@ -214,7 +217,8 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;s
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .fas.fa-quote-right{
