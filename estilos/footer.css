@@ -48,7 +48,8 @@ footer{
     border-radius: 150px; 
     padding: 10px;
     cursor: pointer;
-    transition: 0.4s;  
+    transition: 0.4s;
+    text-decoration: none;  
     }
 
 .iconos:hover{
@@ -62,6 +63,7 @@ footer{
     transition: 0.4s;
     }
 
+
 #p_footer{
     color: #fff;
     font-size: 16px;  
@@ -72,17 +74,18 @@ footer{
     /*Solucionar centrado del footer*/
 }
 
-/*
-A:link {
-    text-decoration: none 
+.a_footer{
+    text-decoration: none;
 }
-A:hover {
-     color: black; 
-     text-decoration: none 
-}
-A:visited {
-    color: black;
-    text-decoration: none 
-}   */
 
-/*CORREGIR ERRORES DE HIPERVINCULOS*/
+.a_footer:visited{
+color: white;
+}
+
+.a_footer_iconos{
+    text-decoration: none; 
+}
+
+.a_footer_iconos:visited{
+    color: #C3525A;
+}
