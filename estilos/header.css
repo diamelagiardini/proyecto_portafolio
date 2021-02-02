@@ -41,19 +41,34 @@ header{
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    margin-right:100px;   
+    margin-right:150px; 
 }
 
 .items_menu{
     cursor: pointer;
-    transition: 0.4s;   
+    transition: 0.4s;
+    border-radius: 20px;
+    padding: 5px;   
 }
 
 .items_menu:hover{
     cursor: pointer;
     transition: 0.4s;
-    color:#C3525A;   
+    border-radius: 20px;
+    color:#C3525A;
+    padding: 5px;     
 }
+
+.items_menu:active{
+    cursor: pointer;
+    border: 1px solid #C3525A;
+    color:#C3525A;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 1px;
+    padding: 5px;   
+}
+
+
 
 .contacto_header{
     color: #fff;
