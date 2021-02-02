@@ -412,6 +412,14 @@ h2{
     transition: 0.4s;
 }
 
+.a_formulario{
+text-decoration: none;
+}
+
+.a_formulario:visited{
+color: black;  
+}
+
 .escribime{
     height: 530px;
     width: 489px;
