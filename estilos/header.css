@@ -6,6 +6,17 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+/*
+body{
+    /*box-shadow: inset -10px 0 25px #999587;*/
+   
+   
+}
+
+html{
+    
+    */
+}
 
 header{
     background-color: #fff;
@@ -15,7 +26,8 @@ header{
     transition: 0.3s;
 
     width: 100%;
-    height: 100px;
+   /* height: 100px;*/
+   height: auto;
 
     z-index: 3;
 }
@@ -25,15 +37,13 @@ header{
     flex-direction: row;
    justify-content: flex-end;
 
-    width: 100%;
-    height: 100px;
+   width: 100%;
+   /* height: 100px;*/
+   height: auto;
 }
 
 .nav_header{
-    justify-content:space-evenly;
-    align-items: center;
     padding: 20px;
-    margin-right: 20%;  
 }
 
 .ul_nav{
@@ -111,10 +121,3 @@ li{
     list-style: none;  
 }
 
-.a_footer{
-    text-decoration: none;
-}
-
-.a_footer:visited{
-color: white;
-}
