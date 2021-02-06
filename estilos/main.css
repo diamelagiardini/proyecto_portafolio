@@ -12,7 +12,7 @@
   width: 100%;
 }*/
 #section_presentacion {
-  /* height: 879px;*/
+  
   height: auto;
   width: 100%;
   margin: 90px 0 0 0;
@@ -25,9 +25,10 @@
   align-items: center;
 
   margin: auto;
-  /* height: 639px;*/
+  
   height: auto;
-  width: 1100px;
+  width: 100%;
+  /*padding: 0 100px;*/
 
   background-color: #ffffff;
 }
@@ -40,8 +41,9 @@
   background-color: #ffffff;
   /* height: 251px;*/
   height: auto;
-  width: 500px;
+  width: 50%;
   margin-right: 100px;
+  padding: 0 0 0 300px;
 }
 
 p {
@@ -97,14 +99,11 @@ h1 {
   margin-top: 40px;
 }
 
-.img {
+.imagen_presentacion {
   display: flex;
   height: 500px;
   width: 500px;
 
-  background-image: url(../imagenes/imagen_primer_section.png);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 #section_conocimientos {
   /*  height: 980px;*/
@@ -119,9 +118,8 @@ h1 {
   flex-wrap: wrap;
   background-color: #f6f7fb;
 
-  height: 970px;
-  /*  height: auto;*/
-  width: 1100px;
+  height: auto;
+  width: 100%;
   margin: auto;
 }
 .titulo_conocimientos {
@@ -131,6 +129,7 @@ h1 {
   height: auto;
   text-align: center;
   margin-top: 150px;
+  width: 100%;
 }
 
 .parrafo_conocimientos {
@@ -138,10 +137,11 @@ h1 {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
-  margin: 40px 350px 65px 350px;
+ padding: 20px 10px 20px 10px;
   width: 400px;
   /* height: 68px;*/
   height: auto;
+  width: 100%;
 }
 
 .conteiner_conocimientos {
@@ -149,19 +149,18 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
 
-  height: 498px;
- /* height: auto*/
+ /* height: 498px;*/
+ height: auto;
   width: 100%;
+  padding: 30px 100px 30px 100px;
 }
 
 .flexible_conocimientos {
   display: flex;
   flex-direction: column;
 
-  /*  height: 230px;*/
-  height: auto;
-  /*width: 260px;*/
-  width: 25%;
+  height: 250px;
+  width: 300px;
   margin: 10px 20px 10px 20px;
   padding-top: 60px;
   text-align: center;
@@ -183,8 +182,8 @@ h1 {
   flex-direction: column;
 
   /*  height: 230px;*/
-  height: auto;
-  width: 25%;
+  height: 250px;
+  width: 300px;
   margin: 10px 20px 10px 20px;
   padding-top: 60px;
   text-align: center;
@@ -251,16 +250,18 @@ h1 {
   /*  height: 1510px;*/
   height: auto;
   width: 100%;
+
 }
 
 .div_proyectos {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   /* height: 1400px;*/
   height: auto;
-  width: 1100px;
-  margin: auto;
+  width: 100%;
+  
 }
 .titulo_proyectos {
   font-weight: 900;
@@ -276,21 +277,20 @@ h1 {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
-  margin: 40px 350px 65px 350px;
-  width: 400px;
-  /*height: 68px;*/
-  height: auto;
+  margin-top: 30px;
+  padding: 0 50px 0 50px;
+ 
 }
 
 .conteiner_proyectos {
-  display: flex;
+   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content: center;
 
   margin-top: 30px;
-  /*height: 1000px;*/
+  margin-bottom: 100px;
   height: auto;
-  width: 1100px;
+  width: 100%;
 }
 
 .flexible_proyectos {
@@ -357,9 +357,9 @@ h1 {
   display: flex;
 
   margin: auto;
-  height: 690px;
-  width: 1100px;
-  padding: 80px 60px 80px 60px;
+  height: auto;
+  width: 100%;
+  padding: 50px 200px 50px 200px;
 
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
@@ -367,7 +367,7 @@ h1 {
 }
 
 .contactame {
-  width: 489px;
+  width: 50%;
   /*height: 527px;*/
 }
 
@@ -430,18 +430,19 @@ h2 {
 .escribime {
   /*height: 530px;*/
   height: auto;
-  width: 489px;
+  width: 50%;
 }
 
 #form {
   /*height: 483px;*/
   height: auto;
-  width: 459px;
+  width: 100%;
 }
 
 .div_nombreyapellido {
   display: flex;
   flex-direction: row;
+  ;
 }
 
 .div_emailymensaje {
@@ -462,6 +463,7 @@ input[type="text"] {
   margin-top: 20px;
   margin-left: 5px;
   outline: none;
+  width: 100%
 }
 
 input[type="text"]:hover {

@@ -12,16 +12,97 @@
         display: none;
     }
 
-    .conteiner_section_presentacion{
+    .conteiner_section_presentacion {
+        display: flex;
+        flex-direction: column;
+ 
+    }
+    .imagen_presentacion{
+    
+    width: 300px;
+    height: 300px;}
+
+    .titulo_conocimientos {
+        font-size: 2.5em;
+    }
+
+    .titulo_proyectos{
+        font-size: 2.5em;   
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    .flexible_section_presentacion {
+        padding: 0 ;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .contactame{
+        width: 100%;
+    }
+    .fuente_contactame{
+        width: 100%;
+       
+    }
+    .div_nombreyapellido {
         display: flex;
         flex-direction: column;
     }
 
-    
-    /*.conteiner_conocimientos {
+    input[type="text"] {
+        width: 100%;
+    }
+
+    .escribime{
+        width: 100%;
+    }
+
+   .ul_footer{
+       display: flex;
+       flex-wrap: wrap;    
+   }
+   .iconos{
+       margin-top: 10px;
+   }
+    .ul_footer_none {
+    display: none;
+}
+
+.flexible_section_presentacion {
+    padding: 0 ;
+}
+}
+
+
+@media (max-width: 1100px)
+ {
+
+    .conteiner_section_presentacion{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-    }*/
+        flex-wrap:wrap;
+    }
+
+
+
+.conteiner_section_formulario{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.escribime{
+    margin-top: 100px;
+}
+
+.flexible_section_presentacion {
+    padding: 0 ;
+}
+
 
 }
