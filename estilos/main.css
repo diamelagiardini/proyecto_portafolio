@@ -411,6 +411,10 @@ h2 {
   transition: 0.4s;
 }
 
+i {
+  text-decoration: none;
+}
+
 .a_formulario {
   text-decoration: none;
 }
