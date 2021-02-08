@@ -115,6 +115,7 @@ font-size: 1.2em;
 
 li{
     padding: 0 15px;
-    list-style: none;  
+    list-style: none; 
+    text-decoration: none; 
 }
 
