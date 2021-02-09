@@ -1,248 +1,239 @@
-
-
 @media (max-width: 390px) {
-    #section_presentacion {
-        padding: 10px 0 0 0;
-     }
+  #section_presentacion {
+    padding: 10px 0 0 0;
+  }
+
+  input[type="text"] {
+    background-color: #ffffff;
+    width: 100%;
+  }
+
+  input[type="email"] {
+    background-color: #ffffff;
+    width: 100%;
+  }
+
+  textarea {
+    background-color: #ffffff;
+    width: 100%;
+  }
 }
 
 @media (max-width: 414px) {
-    header{
-        display: none;
-    }
+  header {
+    display: none;
+  }
 
-    .conteiner_section_presentacion {
-        display: flex;
-        flex-direction: column;
-    }
-    #section_presentacion {
-        padding: 10px 0 10px 0;
-     }
+  .conteiner_section_presentacion {
+    display: flex;
+    flex-direction: column;
+  }
+  #section_presentacion {
+    padding: 10px 0 10px 0;
+  }
 
-    .titulo_conocimientos {
-        font-size: 2.0em;
-    }
-    .conteiner_conocimientos{
-        padding: 0;
-    }
-    .flexible_conocimientos {
-        width: 300px;
-        height: 250px;
-        
-    }
-    .titulo_proyectos{
-        font-size: 2.5em;   
-    }
+  .titulo_conocimientos {
+    font-size: 2em;
+  }
+  .conteiner_conocimientos {
+    padding: 0;
+  }
+  .flexible_conocimientos {
+    width: 300px;
+    height: 250px;
+  }
+  .titulo_proyectos {
+    font-size: 2.5em;
+  }
 
-    h2{
-        font-size: 2em;
-    }
+  h2 {
+    font-size: 2em;
+  }
 
-    .flexible_section_presentacion {
-        padding: 0 ;
-    }
+  .flexible_section_presentacion {
+    padding: 0;
+  }
 
-     .conteiner_section_formulario {
-         padding: 0 ;
-         border: none;
-         background-color: #f6f7fb;
-     }
+  .conteiner_section_formulario {
+    padding: 0;
+    border: none;
+    background-color: #f6f7fb;
+  }
 
-     .contactame {
-        width: 100%;
-    }
+  .contactame {
+    width: 100%;
+  }
 
-    .escribime {
-        width: 100%;
-    }
+  .escribime {
+    width: 100%;
+  }
 
-     input[type="text"] {
-         background-color: #ffffff;
-         width: 250px;
-     }
+  input[type="text"] {
+    background-color: #ffffff;
+    width: 100%;
+  }
 
-     input[type="email"] {
-        background-color: #ffffff;
-        width: 250px; 
-     }
+  input[type="email"] {
+    background-color: #ffffff;
+    width: 100%;
+  }
 
-     textarea {
-        background-color: #ffffff; 
-        width: 250px; 
-     }
-
+  textarea {
+    background-color: #ffffff;
+    width: 100%;
+  }
 }
 
 @media (max-width: 620px) {
+  .imagen_presentacion {
+    width: 250px;
+    height: 250px;
+  }
+  .conteiner_conocimientos {
+    padding: 0;
+  }
 
-    .imagen_presentacion {
-        width: 250px;
-        height: 250px;
-    }
-    .conteiner_conocimientos{
-        padding: 0;
-    }
+  .contactame {
+    width: 100%;
+  }
 
-    .contactame {
-        width: 100%;
-    }
+  .escribime {
+    width: 100%;
+  }
 
-    .escribime{
-        width: 100%;
-    }
+  .fuente_contactame {
+    width: 100%;
+  }
+  .div_nombreyapellido {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .fuente_contactame{
-        width: 100%;
-       
-    }
-    .div_nombreyapellido {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-   .ul_footer{
-       display: flex;
-       flex-wrap: wrap;    
-   }
-   .iconos{
-       margin-top: 10px;
-   }
-    .ul_footer_none {
+  .ul_footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .iconos {
+    margin-top: 10px;
+  }
+  .ul_footer_none {
     display: none;
-    }
+  }
 
-    
-.flexible_section_presentacion {
-    padding: 0 ;
-}
+  .flexible_section_presentacion {
+    padding: 0;
+  }
 
-#section_presentacion {
-   padding: 110px 40px 0 40px;
-}
+  #section_presentacion {
+    padding: 110px 40px 0 40px;
+  }
 
-.conteiner_section_formulario {
-    padding: 0 ;
+  .conteiner_section_formulario {
+    padding: 0;
     border: none;
     background-color: #f6f7fb;
-}
+  }
 
-input[type="text"] {
+  input[type="text"] {
     background-color: #ffffff;
-    width: 250px;
-}
+    width: 100%;
+  }
 
-input[type="email"] {
-   background-color: #ffffff;
-   width: 250px;
-}
+  input[type="email"] {
+    background-color: #ffffff;
+    width: 100%;
+  }
 
-textarea {
-   background-color: #ffffff;  
-   width: 250px;
-   
-}
-
+  textarea {
+    background-color: #ffffff;
+    width: 100%;
+  }
 }
 
 @media (max-width: 1030px) {
+  header {
+    display: none;
+  }
 
-    header{
-        display: none;
-    }
+  .flexible_section_presentacion {
+    padding: 0;
+  }
 
-    .flexible_section_presentacion {
-        padding: 0;
-    }
+  .conteiner_section_formulario {
+    padding: 0 20px 0 20px;
+    border: none;
+    background-color: #f6f7fb;
+  }
 
-    .conteiner_section_formulario {
-        padding: 0 20px 0 20px;
-        border: none;
-        background-color: #f6f7fb;
-    }
-    
-    .contactame {
-        width: 100%;
-    }
-    .fuente_contactame{
-        width: 100%;
-       
-    }
-    .div_nombreyapellido {
-        display: flex;
-        flex-direction: column;
-    }
-
-  
-    .escribime{
-        width: 100%;
-    }
-
-    input[type="text"] {
-        background-color: #ffffff;
-        width: 50%;
-    }
-    
-    input[type="email"] {
-       background-color: #ffffff;
-       width: 50%; 
-    }
-    
-    textarea {
-       background-color: #ffffff; 
-       width: 50%;  
-    }
-    
-    }
-
-@media (max-width: 1100px){
-
-    .conteiner_section_presentacion{
-        display: flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-    }
-
-   
-
-    .conteiner_section_formulario{
-    
+  .contactame {
+    width: 100%;
+  }
+  .fuente_contactame {
+    width: 100%;
+  }
+  .div_nombreyapellido {
     display: flex;
     flex-direction: column;
+  }
 
-    }
+  .escribime {
+    width: 100%;
+  }
 
-    .div_nombreyapellido {
-        display: flex;
-        flex-direction: column;
-    }
+  input[type="text"] {
+    background-color: #ffffff;
+    width: 50%;
+  }
 
-    .escribime{
-    margin-top: 100px;
-    }
-    
-    .flexible_section_presentacion {
-    padding: 0;
-    }
+  input[type="email"] {
+    background-color: #ffffff;
+    width: 50%;
+  }
 
-
+  textarea {
+    background-color: #ffffff;
+    width: 50%;
+  }
 }
 
-@media (max-width: 1230px){
+@media (max-width: 1100px) {
+  .conteiner_section_presentacion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-    .conteiner_section_formulario{
-    
-        display: flex;
-        flex-direction: column;
-    
-        }
+  .conteiner_section_formulario {
+    display: flex;
+    flex-direction: column;
+  }
 
-        .escribime{
-            margin-top: 100px;
-            }
+  .div_nombreyapellido {
+    display: flex;
+    flex-direction: column;
+  }
 
-        .div_nombreyapellido {
-            display: flex;
-            flex-direction: column;
-        }
+  .escribime {
+    margin-top: 100px;
+  }
+
+  .flexible_section_presentacion {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1230px) {
+  .conteiner_section_formulario {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .escribime {
+    margin-top: 100px;
+  }
+
+  .div_nombreyapellido {
+    display: flex;
+    flex-direction: column;
+  }
 }

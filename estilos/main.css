@@ -1,9 +1,6 @@
-
 #section_presentacion {
-  
   height: auto;
   width: 100%;
- /* margin: 90px 0 0 0;*/
   padding: 110px 0 0 40px;
 }
 
@@ -11,13 +8,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-
   margin: auto;
-  
   height: auto;
   width: 100%;
-  /*padding: 0 100px;*/
-
   background-color: #ffffff;
 }
 
@@ -25,9 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
   background-color: #ffffff;
-  /* height: 251px;*/
   height: auto;
   width: 50%;
   margin-right: 100px;
@@ -94,7 +85,6 @@ h1 {
 }
 
 #section_conocimientos {
-  /*  height: 980px;*/
   height: auto;
   width: 100%;
   background-color: #f6f7fb;
@@ -105,7 +95,6 @@ h1 {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #f6f7fb;
-
   height: auto;
   width: 100%;
   margin: auto;
@@ -115,7 +104,6 @@ h1 {
 .titulo_conocimientos {
   font-weight: 900;
   font-size: 45px;
-  /*   height: 54px;*/
   height: auto;
   text-align: center;
   margin-top: 100px;
@@ -127,9 +115,8 @@ h1 {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
- padding: 20px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
   width: 400px;
-  /* height: 68px;*/
   height: auto;
   width: 100%;
 }
@@ -138,9 +125,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
- /* height: 498px;*/
- height: auto;
+  height: auto;
   width: 100%;
   padding: 30px 100px 30px 100px;
 }
@@ -148,21 +133,17 @@ h1 {
 .flexible_conocimientos {
   display: flex;
   flex-direction: column;
-
   height: 250px;
   width: 300px;
   margin: 10px 20px 10px 20px;
   padding-top: 60px;
   text-align: center;
-
   border: 1px solid #dddfe5;
   border-radius: 20px;
   background-color: #ffffff;
   color: rgba(10, 10, 10, 0.788);
-
   font-weight: 700;
   font-size: 20px;
-
   cursor: pointer;
   transition: 0.4s;
 }
@@ -170,22 +151,17 @@ h1 {
 .flexible_conocimientos:hover {
   display: flex;
   flex-direction: column;
-
-  /*  height: 230px;*/
   height: 250px;
   width: 300px;
   margin: 10px 20px 10px 20px;
   padding-top: 60px;
   text-align: center;
-
   border: 1px solid #c3525a;
   border-radius: 20px;
   background-color: #ffffff;
   color: #c3525a;
-
   font-weight: 700;
   font-size: 20px;
-
   cursor: pointer;
   transition: 0.4s;
 }
@@ -196,7 +172,6 @@ h1 {
 }
 
 #section_cita {
-  /*   height: 570px;*/
   height: auto;
   width: 100%;
   background-color: #c3525a;
@@ -221,14 +196,11 @@ h1 {
 .parrafo_cita {
   font-size: 20px;
   font-weight: 400;
-  /*   line-height: 26px;*/
   height: auto;
   text-align: center;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-
-  /*  height: 105px;*/
   height: auto;
   width: 100%;
   margin: 20px 0 20px 0;
@@ -240,26 +212,21 @@ h1 {
 }
 
 #section_proyectos {
-  /*  height: 1510px;*/
   height: auto;
   width: 100%;
-
 }
 
 .div_proyectos {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  /* height: 1400px;*/
   height: auto;
   width: 100%;
-  
 }
+
 .titulo_proyectos {
   font-weight: 900;
   font-size: 45px;
-  /*height: 54px;*/
   height: auto;
   text-align: center;
   margin-top: 80px;
@@ -272,14 +239,12 @@ h1 {
   text-align: center;
   margin-top: 30px;
   padding: 0 50px 0 50px;
- 
 }
 
 .conteiner_proyectos {
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   margin-top: 30px;
   margin-bottom: 100px;
   height: auto;
@@ -289,21 +254,17 @@ h1 {
 .flexible_proyectos {
   display: flex;
   flex-direction: column;
-
   height: 305px;
   width: 290px;
   margin: 10px 20px 10px 20px;
   padding-top: 50px;
   text-align: center;
-
   border: 1px solid #dddfe5;
   border-radius: 20px;
   background-color: #ffffff;
   color: rgba(10, 10, 10, 0.788);
-
   font-weight: 600;
   font-size: 18px;
-
   cursor: pointer;
   transition: 0.4s;
 }
@@ -312,33 +273,27 @@ h1 {
   display: flex;
   flex-direction: column;
 
-  /*height: 305px;*/
   height: auto;
   width: 290px;
   margin: 10px 20px 10px 20px;
   padding-top: 50px;
   text-align: center;
-
   border: 1px solid #c3525a;
   border-radius: 20px;
   background-color: #ffffff;
   color: #c3525a;
-
   font-weight: 600;
   font-size: 18px;
-
   cursor: pointer;
   transition: 0.4s;
 }
 
 .img_proyectos {
   height: 155px;
-  
   width: 100%;
 }
 
 #section_formulario {
-  /*height: 1020px;*/
   height: auto;
   width: 100%;
   padding: 50px 40px 50px 40px;
@@ -347,12 +302,10 @@ h1 {
 
 .conteiner_section_formulario {
   display: flex;
-
   margin: auto;
   height: auto;
   width: 100%;
   padding: 50px 200px 50px 200px;
-
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 15px;
@@ -360,7 +313,6 @@ h1 {
 
 .contactame {
   width: 50%;
-  /*height: 527px;*/
 }
 
 h2 {
@@ -378,7 +330,6 @@ h2 {
   text-align: left;
   font-weight: 400;
   padding-top: 30px;
-  /*height: 112px;*/
   width: 400px;
 }
 
@@ -424,13 +375,11 @@ i {
 }
 
 .escribime {
-  /*height: 530px;*/
   height: auto;
   width: 50%;
 }
 
 #form {
-  /*height: 483px;*/
   height: auto;
   width: 100%;
 }
@@ -438,7 +387,6 @@ i {
 .div_nombreyapellido {
   display: flex;
   flex-direction: row;
-  ;
 }
 
 .div_emailymensaje {
@@ -459,7 +407,7 @@ input[type="text"] {
   margin-top: 20px;
   margin-left: 5px;
   outline: none;
-  width: 100%
+  width: 100%;
 }
 
 input[type="text"]:hover {
